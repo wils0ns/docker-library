@@ -1,6 +1,6 @@
 FROM ubuntu:18.04
 
-ARG SALT_VERSION=2017.7.8
+ARG SALT_VERSION=2017.7
 ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get update && apt-get install wget gnupg -y && \
