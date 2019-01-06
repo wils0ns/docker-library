@@ -1,0 +1,15 @@
+version: '3'
+services:
+  master:
+    image: saltmaster:2018.3-ubuntu
+    build:
+      context: ./master/ubuntu
+      args:
+        SALT_VERSION: '2018.3'
+    # volumes:
+      # - ./test/master/master_config:/etc/salt/master
+    ports:
+      - "8000:8000"
+    environment:
+      SALT_API_USE_BASIC_SETUP: 1
+      SALT_LOG_LEVEL: debug

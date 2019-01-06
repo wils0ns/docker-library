@@ -1,0 +1,6 @@
+.git
+.vscode
+.idea
+.gitignore
+*.todo
+test/*
