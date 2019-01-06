@@ -3,7 +3,7 @@
 Useful environment variables:
 
 | Variable | default value | Description |
-| - | - | - |
+|:- |:- |:- |
 | SALT_LOG_LEVEL | warning | Salt terminal log level |
 | SALT_LOG_FILE_LEVEL | warning |Salt file log level |
 | SALT_API_PORT | 8000 |Which port to run salt-api |
