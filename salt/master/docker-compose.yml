@@ -1,11 +1,10 @@
 version: '3'
 services:
   master:
-    image: saltmaster:2018.3.3-ubuntu
+    image: saltmaster:2018.3-centos
     build:
-      context: ./master/ubuntu
-      args:
-        SALT_VERSION: '2018.3.3'
+      context: .
+      dockerfile: ./2018.3/centos/Dockerfile
     # volumes:
       # - ./test/master/master_config:/etc/salt/master
     ports:
