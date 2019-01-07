@@ -1,6 +1,21 @@
 # saltmaster
 
-Useful environment variables:
+## Ubuntu
+
+[![](https://images.microbadger.com/badges/version/cathaldallan/saltmaster:2017.7-ubuntu.svg)](2017.7/ubuntu/Dockerfile "2017.7-ubuntu")
+[![](https://images.microbadger.com/badges/image/cathaldallan/saltmaster:2017.7-ubuntu.svg)](https://microbadger.com/images/cathaldallan/saltmaster:2017.7-ubuntu "2017.7-ubuntu")
+
+[![](https://images.microbadger.com/badges/version/cathaldallan/saltmaster:2018.3-ubuntu.svg)](2018.3/ubuntu/Dockerfile "2018.3-ubuntu")
+[![](https://images.microbadger.com/badges/image/cathaldallan/saltmaster:2018.3-ubuntu.svg)](https://microbadger.com/images/cathaldallan/saltmaster:2018.3-ubuntu "2018.3-ubuntu")
+
+## CentOS
+[![](https://images.microbadger.com/badges/version/cathaldallan/saltmaster:2017.7-centos.svg)](2017.7/centos/Dockerfile "2017.7-centos")
+[![](https://images.microbadger.com/badges/image/cathaldallan/saltmaster:2017.7-centos.svg)](https://microbadger.com/images/cathaldallan/saltmaster:2017.7-centos "2017.7-centos")
+
+[![](https://images.microbadger.com/badges/version/cathaldallan/saltmaster:2018.3-centos.svg)](2018.3/centos/Dockerfile "2018.3-centos")
+[![](https://images.microbadger.com/badges/image/cathaldallan/saltmaster:2018.3-centos.svg)](https://microbadger.com/images/cathaldallan/saltmaster:2018.3-centos "2018.3-centos")
+
+### Useful environment variables
 
 | Variable | default value | Description |
 |:- |:- |:- |
@@ -11,7 +26,7 @@ Useful environment variables:
 | SALT_API_PASSWORD | admin | The password to be set to the salt-api admin user |
 
 
-Default salt-master configuration:
+### Default salt-master configuration
 
 ```python
 SALT_MASTER_DEFAULT_CONFIG = {

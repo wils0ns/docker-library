@@ -1,14 +1,23 @@
 version: '3'
 services:
-  master:
+  saltmaster-2018.3-centos:
     image: saltmaster:2018.3-centos
     build:
       context: .
       dockerfile: ./2018.3/centos/Dockerfile
-    # volumes:
-      # - ./test/master/master_config:/etc/salt/master
     ports:
       - "8000:8000"
+    environment:
+      SALT_API_USE_BASIC_SETUP: 1
+      SALT_LOG_LEVEL: debug
+  
+  saltmaster-2018.3-ubuntu:
+    image: saltmaster:2018.3-ubuntu
+    build:
+      context: .
+      dockerfile: ./2018.3/ubuntu/Dockerfile
+    ports:
+      - "8001:8000"
     environment:
       SALT_API_USE_BASIC_SETUP: 1
       SALT_LOG_LEVEL: debug
