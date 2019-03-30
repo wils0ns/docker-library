@@ -21,3 +21,25 @@ services:
     environment:
       SALT_API_USE_BASIC_SETUP: 1
       SALT_LOG_LEVEL: debug
+
+  saltmaster-2019.2-centos:
+    image: saltmaster:2019.2-centos
+    build:
+      context: .
+      dockerfile: ./2019.2/centos/Dockerfile
+    ports:
+      - "8002:8000"
+    environment:
+      SALT_API_USE_BASIC_SETUP: 1
+      SALT_LOG_LEVEL: debug
+  
+  saltmaster-2019.2-ubuntu:
+    image: saltmaster:2019.2-ubuntu
+    build:
+      context: .
+      dockerfile: ./2019.2/ubuntu/Dockerfile
+    ports:
+      - "8003:8000"
+    environment:
+      SALT_API_USE_BASIC_SETUP: 1
+      SALT_LOG_LEVEL: debug
