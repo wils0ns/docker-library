@@ -10,7 +10,7 @@
 
 ## Ubuntu py3
 
-[![](https://images.microbadger.com/badges/version/cathaldallan/saltmaster:2019.2-ubuntu.svg)](2019.2/ubuntu/Dockerfile "2019.2-ubuntu")
+[![](https://images.microbadger.com/badges/version/cathaldallan/saltmaster:2019.2-ubuntu.svg)](https://github.com/codeminus/docker-library/blob/master/salt/master/2019.2/ubuntu/Dockerfile "2019.2-ubuntu")
 [![](https://images.microbadger.com/badges/image/cathaldallan/saltmaster:2019.2-ubuntu.svg)](https://microbadger.com/images/cathaldallan/saltmaster:2019.2-ubuntu "2019.2-ubuntu")
 
 ## CentOS
@@ -22,7 +22,7 @@
 
 ## CentOS py3
 
-[![](https://images.microbadger.com/badges/version/cathaldallan/saltmaster:2019.2-centos.svg)](2019.2/centos/Dockerfile "2019.2-centos")
+[![](https://images.microbadger.com/badges/version/cathaldallan/saltmaster:2019.2-centos.svg)](https://github.com/codeminus/docker-library/blob/master/salt/master/2019.2/centos/Dockerfile "2019.2-centos")
 [![](https://images.microbadger.com/badges/image/cathaldallan/saltmaster:2019.2-centos.svg)](https://microbadger.com/images/cathaldallan/saltmaster:2019.2-centos "2019.2-centos")
 
 
