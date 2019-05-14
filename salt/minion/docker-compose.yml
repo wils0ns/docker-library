@@ -1,5 +1,15 @@
 version: '3'
 services:
+  saltminion-2018.3-centos:
+    image: saltminion:2018.3-centos
+    build:
+      context: .
+      dockerfile: ./2018.3/centos/Dockerfile
+  saltminion-2018.3-ubuntu:
+    image: saltminion:2018.3-ubuntu
+    build:
+      context: .
+      dockerfile: ./2018.3/ubuntu/Dockerfile
   saltminion-2019.2-centos:
     image: saltminion:2019.2-centos
     build:
